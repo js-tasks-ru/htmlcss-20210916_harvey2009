@@ -1,0 +1,13 @@
+.demo-table {
+
+}
+
+.demo-table tr td {
+  padding: 10px;
+}
+
+.demo-table tr td:first-child {
+  padding-right: 40px;
+  font-size: var(--main-font-size);
+  color: var(--grey-4);
+}

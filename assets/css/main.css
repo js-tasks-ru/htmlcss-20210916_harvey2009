@@ -1,5 +1,8 @@
 @import '../css/normalize.min.css';
 @import '../fonts/fonts.css';
+@import './components/header.css';
+@import './components/main.css';
+@import './components/demo-table.css';
 
 :root {
   --white: #ffffff;
@@ -34,31 +37,4 @@
 h3 {
   font-size: 32px;
   font-weight: normal;
-}
-
-.header {
-  padding: 20px 40px;
-  background-color: var(--black);
-  font-size: 28px;
-  color: white;
-}
-
-.main {
-  padding: 40px;
-}
-
-/* Component table */
-
-.demo-table {
-
-}
-
-.demo-table tr td {
-  padding: 10px;
-}
-
-.demo-table tr td:first-child {
-  padding-right: 40px;
-  font-size: var(--main-font-size);
-  color: var(--grey-4);
 }
