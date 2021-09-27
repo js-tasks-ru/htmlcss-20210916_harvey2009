@@ -1,11 +1,14 @@
 /* Стилизация аккордеона */
 
 .accordion {
+  color: var(--black);
+}
+
+.accordion__item {
   padding: 32px;
   margin-bottom: 8px;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-  color: var(--black);
   transition: all .15s ease-in-out;
 }
 
