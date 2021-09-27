@@ -7,7 +7,7 @@
   background-color: var(--primary);
   border: none;
   border-radius: 8px;
-  color: white;
+  color: var(--white);
   cursor: pointer;
   transition: all .15s ease-in-out;
 }
@@ -16,7 +16,7 @@
 }
 .button:disabled {
   opacity: 50%;
-  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .button_secondary {
