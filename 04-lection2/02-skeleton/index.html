@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <!-- Страница со скелетоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./skeleton.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <title>Skeleton component</title>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./skeleton.css">
+  </head>
+  <body>
+  <header class="header">
+    <h3>Accordion component</h3>
+  </header>
+  <main class="main">
+    <div class="skeleton">
+      <div class="skeleton__header">
+        <div class="skeleton__left-block">
+          <div class="skeleton__circle"></div>
+        </div>
+        <div class="skeleton__right-block">
+          <div class="skeleton__line" style="width: 40%"></div>
+          <div class="skeleton__line" style="width: 50%"></div>
+        </div>
+      </div>
+      <div class="skeleton__content">
+        <div class="skeleton__line"></div>
+        <div class="skeleton__line"></div>
+      </div>
+    </div>
+  </main>
+  </body>
 </html>
