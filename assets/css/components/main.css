@@ -1,3 +1,21 @@
 .main {
-  padding: 40px;
+  display: flex;
+  justify-content: center;
+  background: var(--grey-1);
+  padding: 68px;
+}
+
+.main__content {
+  display: flex;
+  flex-basis: 1110px;
+  background: var(--grey-1);
+}
+
+.main__content_cards {
+  flex-flow: row wrap;
+  gap: 30px;
+}
+
+.main__card {
+
 }
