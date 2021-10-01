@@ -1,6 +1,15 @@
 .header {
-  padding: 20px 40px;
-  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-2);
+}
+
+.header__content {
+  display: flex;
+  flex-basis: 1110px;
+  align-items: center;
   font-size: 28px;
-  color: white;
+  color: var(--black);
 }

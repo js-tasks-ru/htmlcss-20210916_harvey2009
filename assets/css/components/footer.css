@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+  background-color: var(--white);
+  border-top: 1px solid var(--grey-2);
+  font-size: 28px;
+}
+
+.footer__content {
+  flex-basis: 1110px;
+  color: var(--black);
+  text-align: center;
+}
+
+.footer__title {
+  padding: 20px 0;
+}
