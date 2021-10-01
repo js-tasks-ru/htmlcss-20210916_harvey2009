@@ -1,0 +1,52 @@
+/* Histogram */
+
+.histogram {
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 16px 24px 24px;
+}
+
+.histogram__header {
+  color: var(--black);
+}
+
+.histogram__title-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.histogram__title {
+  line-height: 24px;
+  opacity: .8;
+}
+
+.histogram__button {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.histogram__value {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.histogram__body {
+  display: flex;
+  height: 100px;
+}
+
+/* Histogram chart */
+
+.chart {
+  display: flex;
+  flex-grow: 1;
+  gap: 1px;
+  align-items: flex-end;
+}
+
+.chart__bar {
+  display: flex;
+  background: var(--blue);
+  flex-grow: 1;
+}
