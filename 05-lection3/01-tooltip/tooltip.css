@@ -10,28 +10,56 @@
 .tooltip__trigger:hover + .tooltip__body {
   visibility: visible;
   opacity: 1;
-  transform: translate(-50%, 5px);
 }
 
 .tooltip__body {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  left: 50%;
   padding: 13px 21px;
   background-color: var(--primary);
   border-radius: 10px;
   color: var(--white);
-  transform: translate(-50%, 0);
   transition: all .2s ease;
 }
 
 .tooltip__body::after {
   content: '';
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, calc(-100% + -12px));
   border: 14px solid transparent;
+  pointer-events: none; /* чтоб тултип не каратило при наведении */
+}
+
+/* Top */
+
+.tooltip_top > .tooltip__trigger:hover + .tooltip__body {
+  transform: translate(-50%, calc(-100% - 42px));
+}
+
+.tooltip_top > .tooltip__body {
+  left: 50%;
+  transform: translate(-50%, calc(-100% - 36px));
+}
+
+.tooltip_top > .tooltip__body::after {
+  left: 50%;
+  border-top: 8px solid var(--primary);
+  transform: translate(-50%, 30px);
+}
+
+/* Bottom */
+
+.tooltip_bottom > .tooltip__trigger:hover + .tooltip__body {
+  transform: translate(-50%, 6px);
+}
+
+.tooltip_bottom > .tooltip__body {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.tooltip_bottom > .tooltip__body::after {
+  left: 50%;
   border-bottom: 8px solid var(--primary);
-  pointer-events: none;
+  transform: translate(-50%, calc(-100% + -12px));
 }
