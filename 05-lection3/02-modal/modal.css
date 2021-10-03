@@ -38,15 +38,15 @@
   transition: transform .2s ease;
 }
 
-.modal-sm {
+.modal__window_sm {
   width: 360px;
 }
 
-.modal-md {
+.modal__window_md {
   width: 428px;
 }
 
-.modal-lg {
+.modal__window_lg {
   width: 560px
 }
 
