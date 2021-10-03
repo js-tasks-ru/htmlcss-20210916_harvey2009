@@ -23,7 +23,7 @@
   transition: all .2s ease;
 }
 
-.tooltip__body::after {
+.tooltip__body > .tooltip__arrow {
   content: '';
   position: absolute;
   border: 14px solid transparent;
@@ -41,7 +41,7 @@
   transform: translate(-50%, calc(-100% - 36px));
 }
 
-.tooltip_top > .tooltip__body::after {
+.tooltip_top > .tooltip__body > .tooltip__arrow {
   left: 50%;
   border-top: 8px solid var(--primary);
   transform: translate(-50%, 30px);
@@ -58,7 +58,7 @@
   transform: translate(-50%, 0);
 }
 
-.tooltip_bottom > .tooltip__body::after {
+.tooltip_bottom > .tooltip__body > .tooltip__arrow {
   left: 50%;
   border-bottom: 8px solid var(--primary);
   transform: translate(-50%, calc(-100% + -12px));
