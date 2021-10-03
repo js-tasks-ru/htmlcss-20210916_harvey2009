@@ -8,12 +8,12 @@
   }
 
   modalOpen.addEventListener('click', () => {
-    modal.classList.add('modal-box_active')
+    modal.classList.add('modal_active')
     document.body.overflow = 'hidden';
   });
 
   close.addEventListener('click', () => {
-    modal.classList.remove('modal-box_active')
+    modal.classList.remove('modal_active')
     document.body.overflow = 'initial';
   });
 })();
