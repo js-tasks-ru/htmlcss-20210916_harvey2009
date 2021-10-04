@@ -1,0 +1,20 @@
+.avatar img {
+  width: var(--avatar-size-md);
+  height: var(--avatar-size-md);
+  border-radius: 50%;
+}
+
+.avatar_sm img {
+  width: var(--avatar-size-sm);
+  height: var(--avatar-size-sm);
+}
+
+.avatar_md img {
+  width: var(--avatar-size-md);
+  height: var(--avatar-size-md);
+}
+
+.avatar_lg img {
+  width: var(--avatar-size-lg);
+  height: var(--avatar-size-lg);
+}

@@ -9,6 +9,9 @@
 @import './components/card.css';
 
 :root {
+
+  /* Colors */
+
   --white: #ffffff;
   --black: #212429;
   --pink: #F784AD;
@@ -22,13 +25,29 @@
   --grey-3: #ACB5BD;
   --grey-4: #495057;
 
+  --light-blue: #A0B1F5;
+  --light-blue-rgb: 160, 177, 245;
+
+  --blue-grey-2: #90A0B7;
+  --blue-grey-4: #334D6E;
+  --blue-grey-4-rgb: 51, 77, 110;
+
   --error: var(--red);
   --success: var(--blue);
 
   --primary: var(--blue);
   --secondary: var(--purple);
 
-  --main-font-size: 16px
+  /* Font sizes */
+
+  --main-font-size: 16px;
+  --h3-font-size: 32px;
+
+  /* Avatar */
+
+  --avatar-size-sm: 36px;
+  --avatar-size-md: 64px;
+  --avatar-size-lg: 128px;
 }
 
 * {
@@ -39,6 +58,6 @@
 }
 
 h3 {
-  font-size: 32px;
+  font-size: var(--h3-font-size);
   font-weight: normal;
 }
