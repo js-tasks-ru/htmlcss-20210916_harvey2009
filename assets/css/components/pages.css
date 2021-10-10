@@ -4,13 +4,3 @@
   height: 100vh;
   background-color: var(--grey-1);
 }
-
-.page__header {
-  height: 80px;
-  background: #4263EB;
-}
-
-.page__footer {
-  height: 80px;
-  background: #212429;
-}
