@@ -9,6 +9,9 @@
 @import './components/card.css';
 
 :root {
+
+  /* Colors */
+
   --white: #ffffff;
   --black: #212429;
   --pink: #F784AD;
@@ -35,7 +38,16 @@
   --primary: var(--blue);
   --secondary: var(--purple);
 
-  --main-font-size: 16px
+  /* Font sizes */
+
+  --main-font-size: 16px;
+  --h3-font-size: 32px;
+
+  /* Avatar */
+
+  --avatar-size-sm: 36px;
+  --avatar-size-md: 64px;
+  --avatar-size-lg: 128px;
 }
 
 * {
@@ -46,6 +58,6 @@
 }
 
 h3 {
-  font-size: 32px;
+  font-size: var(--h3-font-size);
   font-weight: normal;
 }
